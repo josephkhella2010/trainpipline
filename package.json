@@ -1,0 +1,21 @@
+{
+  "name": "pipeline-ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephkhella2010/trainpipline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephkhella2010/trainpipline/issues"
+  },
+  "homepage": "https://github.com/josephkhella2010/trainpipline#readme",
+  "description": ""
+}
