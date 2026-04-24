@@ -1,4 +1,4 @@
-name: create ci/cd pipeline
+name: Simple CI Pipeline
 
 on:
   push:
@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: setup node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 16
 
-      - name: install dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: run tests
+      - name: Run tests
         run: npm test
